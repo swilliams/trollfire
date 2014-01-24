@@ -43,6 +43,18 @@ function scanWholePage() {
     }
 }
 
+function createObserver() {
+    var observer = new MutationObserver(function(ms) { 
+        ms.forEach(function(m) { 
+            var elem = m.addedNodes[0];
+            if (elem.nodeType === 1) { //Element
+                checkElement(elem);
+            }
+        }); 
+    });
+    return observer;
+}
+
 window.addEventListener("message", function(event) {
     if (event.data.type && (event.data.type == "trollicon")) {
         addIconToInput(event.data.text);
@@ -50,3 +62,7 @@ window.addEventListener("message", function(event) {
 });
 
 scanWholePage();
+var obs = createObserver();
+var target = document.getElementById('chat');
+var cfg = { childList: true };
+obs.observe(target, cfg);
