@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "trollfire",
+  "description": "Trollicons for Campfire chat",
+  "version": "0.1",
+
+  "permissions": [
+    "https://*.campfirenow.com/"
+  ],
+  "browser_action": {
+    "default_icon": "sources/icon.png",
+    "default_popup": "sources/popup.html"
+  }
+}

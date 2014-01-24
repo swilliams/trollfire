@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Trollicons!!!1!</title>
+        <meta name="description" content="">
+        <style type="text/css">
+            #container {
+
+            }
+
+            #container > div {
+                display: inline-block;
+                width: 32px;
+                height: 32px;
+                cursor: pointer;
+                margin: 5px;
+            }
+
+            #container > div > img {
+                width: 32px;
+                height: 32px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Trollicons!!!1!</h1>
+        <div id="container">
+        </div>
+
+
+        <script>
+var tmpl = '<div class="icon"><img src="../trollicons/$img" /></div>';
+var icons = [
+'Actually-actually-okay3.png',
+'Aint That Some Shit-celo-aintthatsomeshit.png',
+'Aliens-aliens.png',
+'All the things-allthethings.png',
+'Anti Joke Chicken-antichicken-antijokechicken.png',
+'Are You Kidding Me-areyoukiddingme-areyoukidding-stfu-areyoufuckingkiddingme.png',
+'Aw Man-awman-whyhands.png',
+'Aw-aw-why.png',
+'Awww Yea-awyea-awyeah-ay.png',
+'Bad Poker Face-badpokerface-badpoker.png',
+'Beer Guy-beerguy-beer.png',
+'Beh-beh.png',
+'Big Mouth High Face-bmhf-bigmouth.png',
+'Busted-busted-oops.png',
+'Canadian Rage-canadianrage-canadian.png',
+'Captain Obvious-captainobvious.png',
+'Cereal Guy Angry-cerealguyangry-cerealangry.png',
+'Cereal Guy Squint-cerealguysquint-cerealsquint.png',
+'Cereal Guy-cerealguy-cereal.png',
+'Cereal Spitting-cerealspit-spit.png',
+'Challenge Considered-challengeconsidered-considered.png',
+'Challenge-challenge.png',
+'Classy Fap-classyfap-richfap.png',
+'Clever Girl-clevergirl.png',
+'Close Enough-closeenough-ce.png',
+'Conflicting Emotions-notsure-dunno.png',
+'Confused-confused-butwhy.png',
+'Crazy Concentrate Sweat-sweat-workinghard.png',
+'Cry-cry-baw.png',
+'Dazed-dazed.png',
+'Desk flip-deskflip-flip-tableflip-desk-table.png',
+'Devil Troll-deviltroll-evil-devil.png',
+'Dog Sweet Jesus-dogsweetjesus.png',
+'Doge-doge.png',
+'Douchebag-dbag-brah-douche-douchebag.png',
+'Drool-drool.png',
+'Drunk-drunk.png',
+'Dude Come On Smile-comeon.png',
+'Dude-dude-meh.png',
+'Dumbfounded Kid-whoa-ooh.png',
+'Epic Fail Guy-epicfailguy-efg.png',
+'Errg-errg-release.png',
+'Everything Went Better Than Expected-everythingwentbetterthanexpected-betterthanexpected-ewbte.png',
+'Evil Smile-evilsmile-hah.png',
+'Excited-ya-yey.png',
+'Eyes-eyes-fff-imminent.png',
+'Faggot-Dog-faggotdog.png',
+'Fap Fap-fap-fapfap-fapfapfap.png',
+'Feel Like A Sir-likeasir.png',
+'Female Fap-femalefap-schlick.png',
+'Forever Alone Excited-foreveraloneexcited-faexcited-falaugh-friends.png',
+'Forever Alone-foreveralone-fa.png',
+'Foul Bachelor Frog-bachelorfrog-foulbachelorfrog-malefrog.png',
+'Foul Bachelorette Frog-bachelorettefrog-foulbachelorettefrog-femalefrog.png',
+'Freddie Mercury-freddie-hellyes.png',
+'Fry Not Sure If-notsureif.png',
+'Fry-fry-notsureiftrolling-nsit.png',
+'Fu Manchu-fumanchu.png',
+'Fuck That Shit Right-rightfuckthat-rft.png',
+'Fuck That Shit-fuckthatshit-fuckthat-ft-leftfuckthat-lft.png',
+'Fuck Yeah Words-fuckyeahwords-fywords.png',
+'Fuck Yeah-fuckyeah-fy.png',
+'Fuu-rage2-epicrage-fu2.png',
+'GTFO-gtfo.png',
+'Gah-gah-sweaty.png',
+'Gasp-gasp.png',
+'Gay Troll-gaytroll-gay.png',
+'Genius-genius-genious.png',
+'Gonna fuck that taco-taco.png',
+'Grandma Shit-grandmashit-shit.png',
+'Grandma-grandma-granny.png',
+'Granny Troll-grannytroll.png',
+'Grinch-grinch.png',
+'Gropaga-gropaga.png',
+'Grumpy Cat-grumpycat-grumpycatno.png',
+'Gun Left-lgun.png',
+'Gun Right-rgun.png',
+'Happy Face -happyface.png',
+'Happy-happy.png',
+'Haters Gonna Hate-hatersgonnahate-haters-hgh.png',
+'Heh heh-hehheh-hehehe.png',
+'Hehe Lizard-lizard.png',
+'Herp Derp-herpderp-herp-derp.png',
+'High Expectation Asian Dad-asiandad.png',
+'High-high.png',
+'Hipster Kitty-hipster-hipsterkitty-hk.png',
+'Hmm-hmm.png',
+'Homophobic Seal-seal-gayseal-gaay.png',
+'I Am Disappoint-son-disappoint.png',
+'I Dont Want to Live on This Planet Anymore-idontwannalive-farnsworth.png',
+'I Lied-ilied-wayevil.png',
+'I See-isee-iseewhatyoudidthere.png',
+'If you know what i mean-ifyouknowwhatimean-bean.png',
+'Insane Wolf-insanewolf-wolf.png',
+'It\'s Not Okay-itsnotokay-okay4.png',
+'It\'s Something-itssomething.png',
+'It\'s Time-itstime-serious-determined.png',
+'It\'s a Trap-trap-itsatrap.png',
+'LOL (No Text)-ooo.png',
+'LOL-lol-LOL.png',
+'Lame Pun Coon-lamepuncoon-lamepun-puncoon.png',
+'Look-look.png',
+'Me Gusta Mucho Creepy-creepymegusta-cmg-evilmegusta-emg.png',
+'Me Gusta Perfect-mgperfect-megustaperfect-mgp.png',
+'Me Gusta-bepistrollingyoubetter-megusta-mg.png',
+'Melvin Fuck Yeah-melvinfuckyeah-melvinfy-mfy.png',
+'Melvin-melvin.png',
+'Milk-milk.png',
+'Mom-mom.png',
+'Moonshot-moonshot-noway-shocked.png',
+'Mother Of God-motherofgod.png',
+'Newspaper Guy Tear-newspaperguytear-newspapertear-tear.png',
+'Newspaper Guy-newspaperguy-newspaper.png',
+'No Me Gusta-nmg-nomegusta.png',
+'No-no.png',
+'Not Bad Obama-notbadobama-notbad-obama.png',
+'Not Okay-notokay-bitter.png',
+'Nothing to do here-rocket-jetpack.png',
+'Numb-numb-fear-scared-depressed.png',
+'Occupied-working-busy-focus.png',
+'Oh God Right-rohgod-rgross-rwtf.png',
+'Oh God Why-ohgodwhy.png',
+'Oh God-ohgod-gross-wtf-lgross-lwtf.png',
+'Oh No-uh-ohno.png',
+'Ohhh Yes-ohyes.png',
+'Ok-ok-nice-great-thumb-thumbs.png',
+'Okay-okay.png',
+'Omg Run-omgrun-run.png',
+'Overjoyed-overjoyed-nowords-daww.png',
+'Paranoid Parrot-paranoid-parrot-paranoidparrot.png',
+'Perfect-perfect-biggrin.png',
+'Pffttchhchhh-pft2-expectant.png',
+'Pft-pft-lulz.png',
+'Philosoraptor-philosoraptor-raptor.png',
+'Picard Facepalm-facepalm-picard.png',
+'Pickle Time-pickletime-pickle.png',
+'Pig-pig-pigrage.png',
+'Pirate-pirate.png',
+'Poker Face Thick-thickpokerface-thickpoker-guilty.png',
+'Poker Face-pokerface-poker-pf.png',
+'Problem Guy-problemguy-okaytroll.png',
+'Puke Rainbows-pukerainbows-pukesrainbows-rainbows.png',
+'Rage Blank-blankrage.png',
+'Rage Classic-fu-rage.png',
+'Rage Extreme-extremerage-xrage.png',
+'Rage Happy-happyrage-hrage.png',
+'Rage Lion-ragelion.png',
+'Rage Nuclear-nuclearrage-nrage-fu3.png',
+'Rage Omega-omegarage-orage-fu4.png',
+'Rage Quiet-quietrage.png',
+'Retard Dog-retarddog-dog.png',
+'Retarded Girl-retardedgirl.png',
+'Rich Fu-richfu-rich-quite.png',
+'Sad Melvin-sadmelvin.png',
+'Sad Shadow-sadshadow-okay2.png',
+'Sad Troll-sadtroll.png',
+'Sad-sad.png',
+'Satisfied-satisfied-relief-ahh-ah.png',
+'Seriously Chan-jackie-chan.png',
+'Shaking-shaking.png',
+'Side Mouth-sidemouth-lefu.png',
+'Smile-smile-catsmile.png',
+'So Close-soclose.png',
+'So hardcore-hardcore-sohardcore.png',
+'Socially Awkward Penguin-penguin-awkwardpenguin-sociallyawkwardpenguin.png',
+'Son Me Gusta-sonmegusta-smg.png',
+'Spiderpman-subtle-nonchalant.png',
+'Stare-stare.png',
+'Straight-straight.png',
+'Success Kid-successkid-kid-success.png',
+'Surprised Wide Open Mouth-surprised3.png',
+'Sweet Jesus Face-sweetjesus-sj.png',
+'Tada left-ltada.png',
+'Tada-tada-rtada.png',
+'That Way-thatway.png',
+'The Fuck Female-gthefuck-gtf.png',
+'The Fuck-thefuck-tf.png',
+'The-More-You-Know-tmyk.png',
+'ThingsWentOkay-thingswentokay-wentokay.png',
+'Throw Up In Mouth-throwupinmouth-throwup-fullmouth.png',
+'Tongue-tongue.png',
+'Troll Dad Jump-trolldadjump-tdjump-tdj.png',
+'Troll Dad Monocle-trolldadmonocle-trolldadm-tdm.png',
+'Troll God-trollgod-god.png',
+'Troll Hot-trollhot-hottroll-babe.png',
+'Troll Insane-insanetroll-insane-excited.png',
+'Troll Lol-trolol-trollol-trolllol.png',
+'Troll peeking-peek-trollpeek.png',
+'Troll-troll-problem-umad.png',
+'TrollDad-trolldad.png',
+'Trollicons-trollicons.png',
+'True Story-truestory.png',
+'Uhm-uhm-mad.png',
+'WTF is this shit-picardwtf-wtfisthisshit.png',
+'Wah-wah-huh.png',
+'Wait-wait-awno.png',
+'Wat-wat-suspicious.png',
+'Watch out-badass-watchout-ndgt-neil.png',
+'What Have I done -whathaveidone-whid.png',
+'What Have You Done-whathaveyoudone-whyd-done.png',
+'What-concerned.png',
+'Win-win-epicwin.png',
+'Wizard-Guy-wizard.png',
+'Y U NO-yuno.png',
+'Yawn-yawn.png',
+'You Don\'t Say-youdontsay-cage-uds.png',
+'Youthful Fear-mommy-zomg.png',
+'surprised-surprised1-surprised.png'
+    ];
+
+    var allTemplates = '';
+    for (var idx = 0; idx < icons.length; idx++) {
+        var icon = icons[idx],
+        mappedTmpl = tmpl.replace('$img', icon);
+        allTemplates += mappedTmpl;
+    }
+
+    var ctr = document.getElementById('container')
+    ctr.innerHTML = allTemplates;
+
+    function sendToCampfire(idx) {
+        var icon = icons[idx];
+        alert(icon);
+    }
+
+    var allIcons = document.getElementsByClassName('icon');
+
+    for (var idx = 0; idx < allIcons.length; idx++) {
+        var iconTag = allIcons[idx];
+        var fn = function() {
+            var _idx = idx;
+            return function() {
+                sendToCampfire(_idx);
+            }
+        }()
+        iconTag.onclick = fn;
+    }
+        </script>
+    </body>
+</html>
