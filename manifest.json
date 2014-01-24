@@ -6,10 +6,17 @@
   "version": "0.1",
 
   "permissions": [
-    "https://*.campfirenow.com/"
+    "https://*.campfirenow.com/",
+    "activeTab"
   ],
   "browser_action": {
     "default_icon": "sources/icon.png",
     "default_popup": "sources/popup.html"
-  }
+  },
+  "content_scripts": [
+    {
+        "matches": ["https://*.campfirenow.com/room/*"],
+        "js": ["sources/content_script.js"]
+    }
+  ]
 }
