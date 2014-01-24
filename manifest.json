@@ -16,7 +16,7 @@
   "content_scripts": [
     {
         "matches": ["https://*.campfirenow.com/room/*"],
-        "js": ["sources/content_script.js"]
+        "js": ["sources/dict.js","sources/content_script.js"]
     }
   ]
 }
