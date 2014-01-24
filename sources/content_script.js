@@ -3,7 +3,7 @@ var input = document.getElementById('input'),
     trollIconRe = /\[[a-z]+\]/g;
 
 function addIconToInput(icon) {
-    input.innerHTML += '[' + icon + ']';
+    input.value += '[' + icon + ']';
 }
 
 function lookupImage(key) {
@@ -20,7 +20,7 @@ function substitute(elem) {
         var img = lookupImage(match);
         if (img !== null) {
             var imgSrc = rootUrl + '/' + img.icon;
-            return '<img src="' + imgSrc + '" alt="' + match + '" />';
+            return '<img src="' + imgSrc + '" alt="' + match + '" title="' + match + '"/>';
         } 
         return '';
     });
