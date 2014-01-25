@@ -10,7 +10,10 @@
     "activeTab"
   ],
   "browser_action": {
-    "default_icon": "sources/icon.png",
+    "default_icon": {
+        "19": "sources/icon-19.png",
+        "38": "sources/icon-38.png"
+    },
     "default_popup": "sources/popup.html"
   },
   "content_scripts": [
