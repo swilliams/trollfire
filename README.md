@@ -4,7 +4,9 @@ trollfire
 Trollicons for [Campfire chat](http://campfirenow.com).
 
 ## To Install
-(link to web store coming soon)
+1. Use Chrome (durr)
+2. [Clicky](https://chrome.google.com/webstore/detail/trollfire/jihpbboolgdkjgbdabloiiogcfoplihg)
+3. Click the '+ FREE' button
 
 This'll add a button to your toolbar. When you're in a Campfire chat, click it and pick a trollicon. It'll add the appropriate text in your chat window. When you click 'Send message' it'll turn into the icon you picked. Yeeha.
 
