@@ -1,4 +1,4 @@
-trollfire
+trollfire [![Code Climate](https://codeclimate.com/github/swilliams/trollfire.png)](https://codeclimate.com/github/swilliams/trollfire)
 =========
 
 Trollicons for [Campfire chat](http://campfirenow.com).
